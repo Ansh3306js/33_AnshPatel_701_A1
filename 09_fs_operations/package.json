@@ -1,0 +1,9 @@
+{
+  "name": "09_fs_operations",
+  "version": "1.0.0",
+  "description": "Demonstrates 5-6 core Node.js filesystem operations",
+  "main": "fs_demo.js",
+  "scripts": {
+    "start": "node fs_demo.js"
+  }
+}

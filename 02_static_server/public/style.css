@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: #f1f5f9;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    color: #38bdf8;
+    margin-top: 0;
+}
+
+p {
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+.image-container {
+    margin: 1.5rem 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(15, 23, 42, 0.5);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bannerImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+button {
+    background: linear-gradient(135deg, #38bdf8, #0284c7);
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    box-shadow: 0 4px 6px -1px rgba(56, 189, 248, 0.2);
+}
+
+button:hover {
+    transform: translateY(-1px);
+    background: linear-gradient(135deg, #0284c7, #0369a1);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+#statusMessage {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+}
+
+.success {
+    background-color: rgba(16, 185, 129, 0.15);
+    color: #34d399;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "01_hello_ajax",
+  "version": "1.0.0",
+  "description": "Simple AJAX hello server assignment problem 1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

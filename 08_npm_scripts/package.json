@@ -1,0 +1,16 @@
+{
+  "name": "08_npm_scripts",
+  "version": "1.0.0",
+  "description": "Functional npm scripts demonstration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js",
+    "clean": "node clean.js",
+    "build": "node build.js",
+    "lint": "node lint.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

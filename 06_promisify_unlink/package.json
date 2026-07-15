@@ -1,0 +1,9 @@
+{
+  "name": "06_promisify_unlink",
+  "version": "1.0.0",
+  "description": "Delete a file using promisified fs.unlink and async/await",
+  "main": "unlink.js",
+  "scripts": {
+    "start": "node unlink.js"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "02_static_server",
+  "version": "1.0.0",
+  "description": "Static file server serving resources from public/ directory",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

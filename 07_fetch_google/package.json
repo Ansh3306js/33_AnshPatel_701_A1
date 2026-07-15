@@ -1,0 +1,12 @@
+{
+  "name": "07_fetch_google",
+  "version": "1.0.0",
+  "description": "Fetch google homepage HTML using native fetch in Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

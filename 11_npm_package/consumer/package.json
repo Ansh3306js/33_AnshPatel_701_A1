@@ -1,0 +1,13 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "description": "Consumes the custom validation npm package",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ansh-patel-701-email-validator-custom": "^1.0.0",
+    "start": "^5.1.0"
+  }
+}

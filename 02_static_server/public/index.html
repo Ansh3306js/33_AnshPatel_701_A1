@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resources Server</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Static Server Demo</h1>
+        <p>This page and all its assets (CSS, JS, and image) are served statically by Express.</p>
+        
+        <div class="image-container">
+            <img src="banner.png" alt="Static Server Banner" id="bannerImg">
+        </div>
+
+        <button id="actionBtn">Click to Trigger JS</button>
+        <div id="statusMessage" class="hidden"></div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

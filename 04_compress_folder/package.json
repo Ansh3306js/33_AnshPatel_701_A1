@@ -1,0 +1,12 @@
+{
+  "name": "04_compress_folder",
+  "version": "1.0.0",
+  "description": "Compress folder using archiver",
+  "main": "compress.js",
+  "scripts": {
+    "start": "node compress.js"
+  },
+  "dependencies": {
+    "archiver": "^6.0.2"
+  }
+}

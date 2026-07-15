@@ -1,0 +1,10 @@
+node_modules/
+**/node_modules/
+.DS_Store
+*.log
+dist/
+**/dist/
+*.zip
+**/extracted_folder/
+**/source_folder/
+**/demo_dir/

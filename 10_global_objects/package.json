@@ -1,0 +1,9 @@
+{
+  "name": "10_global_objects",
+  "version": "1.0.0",
+  "description": "Demonstrates built-in Node.js globals and command-line arguments",
+  "main": "globals.js",
+  "scripts": {
+    "start": "node globals.js arg1 arg2 key=value"
+  }
+}

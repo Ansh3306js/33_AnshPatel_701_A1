@@ -1,0 +1,9 @@
+{
+  "name": "12_promise_chaining",
+  "version": "1.0.0",
+  "description": "Demonstrates chaining dependent tasks using Promises and .then()",
+  "main": "chain.js",
+  "scripts": {
+    "start": "node chain.js"
+  }
+}

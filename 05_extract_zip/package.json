@@ -1,0 +1,12 @@
+{
+  "name": "05_extract_zip",
+  "version": "1.0.0",
+  "description": "Extract a zip file into a folder using adm-zip",
+  "main": "extract.js",
+  "scripts": {
+    "start": "node extract.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.12"
+  }
+}
